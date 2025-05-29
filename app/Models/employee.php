@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Laravel\Sanctum\HasApiTokens;
-class employee extends Model
+class Employee extends Model
 {
 
       use HasApiTokens;
