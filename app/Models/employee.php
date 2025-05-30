@@ -20,8 +20,8 @@ class Employee extends Model
         'gender',
         'dob',
         'photo',
-        'role_id',
         'password',
+        'role',
         'company_id',
         'user_id',
         

@@ -28,7 +28,7 @@ class EmployeeController extends Controller
                     'gender' => $employee->gender,
                     'dob' => $employee->dob,
                     'photo' => $employee->photo,
-                    'role_id' => $employee->role_id,
+                    'role' => $employee->role,
                     'company_id' => $employee->company_id,
                     'user_id' => $employee->user_id
                 ];
@@ -80,7 +80,7 @@ class EmployeeController extends Controller
                 'gender' => $employee->gender,
                 'dob' => $employee->dob,
                 'photo' => $employee->photo,
-                'role_id' => $employee->role_id,
+                'role' => $employee->role,
                 'company_id' => $employee->company_id,
                 'user_id' => $employee->user_id
             ];
@@ -94,6 +94,7 @@ class EmployeeController extends Controller
         } catch (Exception $ex) {
             return $this->errorResponse($ex->getMessage(), 'Exception Occurred');
         }
+            
 
 
     }
@@ -115,7 +116,7 @@ class EmployeeController extends Controller
                     'gender' => $employee->gender,
                     'dob' => $employee->dob,
                     'photo' => $employee->photo,
-                    'role_id' => $employee->role_id,
+                    'role' => $employee->role,
                     'company_id' => $employee->company_id,
                     'user_id' => $employee->user_id
                 ];
@@ -181,7 +182,7 @@ class EmployeeController extends Controller
                 'gender' => $employee->gender,
                 'dob' => $employee->dob,
                 'photo' => $employee->photo,
-                'role_id' => $employee->role_id,
+                'role' => $employee->role,
                 'company_id' => $employee->company_id,
                 'user_id' => $employee->user_id
             ];
@@ -217,7 +218,7 @@ class EmployeeController extends Controller
                     'gender' => $employee->gender,
                     'dob' => $employee->dob,
                     'photo' => $employee->photo,
-                    'role_id' => $employee->role_id,
+                    'role' => $employee->role,
                     'company_id' => $employee->company_id,
                     'user_id' => $employee->user_id
                 ];
