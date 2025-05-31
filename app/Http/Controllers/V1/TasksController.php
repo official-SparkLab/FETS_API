@@ -62,6 +62,10 @@ class TasksController extends Controller
 
 
     }
+    public function index()
+    {
+        
+    }
 
     public function getTaskToAdmin(Request $request)
     {
